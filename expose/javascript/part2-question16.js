@@ -7,8 +7,8 @@ let statistics = {
   rareCars: 2,
 };
 
-for (let key in statistics) {
-  if (key[0] === "r" || statistics[key] % 2 !== 0) {
-    console.log(statistics[key]);
+for (let car in statistics) {
+  if (car[0] === "r" || statistics[car] % 2 !== 0) {
+    console.log(statistics[car]);
   }
 }
